@@ -1,0 +1,38 @@
+html {
+    background: url(forest.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(35, 35, 199);
+    background-repeat: no-repeat;
+}
+
+#headerPage {
+    font-family: cursive;
+    font-size: larger;
+
+}
+
+#page {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    font-size: larger;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: aqua;
+}
+
+#links {
+    display: flex;
+}
