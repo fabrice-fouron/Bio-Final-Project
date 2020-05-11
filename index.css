@@ -4,7 +4,7 @@ html {
     background-attachment: fixed;
     background-color: rgb(35, 35, 199);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
 }
 
 #headerPage {
