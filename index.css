@@ -2,15 +2,21 @@ html {
     background: url(forest.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-color: rgb(35, 35, 199);
     background-repeat: no-repeat;
-    background-size: 90% 100%;
+    background-size: 100% 100%;
+    font-family: cursive;
 }
 
 #headerPage {
-    font-family: cursive;
+    position: absolute;
     font-size: larger;
-
+    background-color: #dddddd;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 8%;
+    opacity: 0.8;
 }
 
 #page {
@@ -24,16 +30,37 @@ html {
     font-size: larger;
 }
 
+ul {
+    position: absolute;
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
 li {
     float: left;
 }
 
-a {
+li a {
     display: block;
-    padding: 8px;
-    background-color: aqua;
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
 }
+
+/* Link has a black background */
+li a:hover {
+    background-color: black;
+  }
 
 #links {
     display: flex;
+    font-size: large;
 }
