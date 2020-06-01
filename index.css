@@ -1,15 +1,8 @@
-html {
-    background: url(forest.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    font-family: cursive;
-}
-
 #headerPage {
+    padding: 20px;
     position: absolute;
     font-size: larger;
+    font-family: cursive;
     background-color: #dddddd;
     padding: 0;
     margin: 0;
@@ -23,10 +16,10 @@ html {
     padding: 15px;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
-    opacity: 0.8;
+    opacity: 0.9;
     position: absolute;
-    left: 2%;
-    right: 2%;
+    left: 10%;
+    right: 10%;
     font-size: larger;
 }
 
@@ -62,4 +55,5 @@ li a:hover {
 #links {
     display: flex;
     font-size: large;
+    padding: 100px;
 }
