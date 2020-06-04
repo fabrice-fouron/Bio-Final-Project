@@ -1,3 +1,11 @@
+html {
+    background: url(../images/backgrounds/cells.jpg); 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+
 #headerPage {
     padding: 20px;
     position: absolute;
@@ -13,13 +21,13 @@
 }
 
 #page {
-    padding: 15px;
+    padding: 30px;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
     opacity: 0.9;
     position: absolute;
-    left: 10%;
-    right: 10%;
+    left: 15%;
+    right: 15%;
     font-size: larger;
 }
 
@@ -56,4 +64,12 @@ li a:hover {
     display: flex;
     font-size: large;
     padding: 100px;
+}
+
+footer {
+    position: fixed;
+    left: 45%;
+    bottom: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
 }
